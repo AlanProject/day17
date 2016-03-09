@@ -1,0 +1,203 @@
+.main_body{
+    /*position:absolute;*/
+    background:#ededed;
+    width:100%;
+    /*top:0px;*/
+    /*bottom:0px;*/
+}
+.main_head{
+    background:#2459a2;
+    height:44px;
+    line-height:44px;
+    margin:0 auto;
+
+}
+.main_head .main_head_content{
+    background:#2459a2;
+    position:absolute;
+    height:44px;
+    margin-left:15%;
+    width:70%;
+}
+.main_head .main_head_content .logo{
+    height:23px;
+    width:125px;
+}
+.main_head .main_head_content .menu{
+    color:#c0cddf;
+    position:absolute;
+    top:0px;
+    left:140px;
+    display: inline-block;
+    list-style:none;
+}
+.main_head .main_head_content .menu ul li{
+    color:#c0cddf !important;
+    list-style:none;
+    padding:0;
+    margin:0;
+    display:inline-block;
+}
+.main_head .main_head_content .menu ul li a{
+    display:block;
+    padding:0 13px 0 16px;
+    height:44px;
+    line-height:44px;
+    color:#c0cddf;
+    text-decoration:none;
+}
+.main_head .main_head_content .menu ul li a:hover{
+    cursor:pointer;
+    height:44px;
+    line-height:44px;
+    background:#204982;
+    color:#fff;
+}
+.main_head .main_head_content .user{
+    position:absolute;
+    top:1px;
+    right:100px;
+    height:31px;
+    width:200px;
+}
+.main_head .main_head_content .user a{
+    display:inline-block;
+    padding:0 13px 0 16px;
+    height:44px;
+    line-height:44px;
+    color:#c0cddf;
+    text-decoration:none;
+}
+.main_head .main_head_content .user a:hover{
+    cursor:pointer;
+    height:44px;
+    line-height:44px;
+    background:#204982;
+    color:#fff;
+}
+.main_head .main_head_content .search{
+    position:absolute;
+    width:136px;
+    height:31px;
+    background: #f4f4f4;
+    right:0;
+    top:6px;
+}
+.main_head .main_head_content .search input{
+    position: relative;
+    width:91px;
+    float:left;
+    border:0 ;
+    background: #f4f4f4;
+
+}
+.main_head .main_head_content .search .img_bord{
+    width:30px;
+    height:29px;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    background-color: #f4f4f4;
+    float: left;
+}
+.main_head .main_head_content .search .img_bord .img_position{
+    float:left;
+    margin-left:11px;
+    margin-top:9px;
+    display:inline-block;
+    height:12px;
+    width:11px;
+    background:url(../img/icon.png) no-repeat 0 0;
+    background-color:#f4f4f4;
+    background-position:0 -197px;
+}
+
+.main_body .main_body_content{
+    position:absolute;
+    width:70%;
+    margin-left:15%;
+    background:#ffffff;
+    bottom:0;
+    top:44px;
+}
+.main_body .main_body_content .padd{
+    padding:6px;
+}
+.main_body .main_body_content .content{
+    font-size: 14px;
+    color: #369;
+    font-weight: bold;
+}
+.news_content{
+    width:100%;
+    height:1000px;
+}
+.news_content a{
+    font-size: 14px;
+    color: #369;
+    font-weight: bold;
+}
+.news_content span{
+    font-size:12px;
+    color:#b4b4b4;
+    /*margin-left:7px;*/
+}
+.news_content .content_head{
+    background-color:#ffffff;
+    font-size:12px;
+    border-radius:15px;
+    width:60px;
+    border:solid 1px;
+    border-color:#c4e3f3;
+    margin-left:3px;
+    font-weight: bold;
+
+}
+.news_content .content_lift{
+    /*position:absolute;*/
+    height:100px;
+    left:0;
+    padding-top:10px;
+    width:80%;
+}
+.news_content .content_right{
+    position:absolute;
+    padding-top:10px;
+    right:0;
+    width:64px;
+    height:64px;
+}
+.content_bottom{
+    position: absolute;
+    top:80px;
+    bottom:0;
+    width:100%;
+}
+.hand_icon{
+    background:url('../img/icon_18_118.png') no-repeat scroll 0 0 transparent;
+}
+.icon_digg{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-position:0 -40px;
+}
+.icon_discus{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-position:0 -60px;
+}
+.icon_collent{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background-position:0 -160px;
+}
+.user_icon{
+    width:15px;
+    height:15px;
+    padding-bottom:10px;
+}
+.content_bottom a b{
+    color:#99aecb;
+}
