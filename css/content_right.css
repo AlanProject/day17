@@ -1,0 +1,24 @@
+.content_message{
+    height:475px;
+    width:300px;
+    background:#f1f1f1;
+    border-radius:5px;
+
+}
+.content_message .message_head{
+    border-radius:5px 5px 0 0;
+    height:35px;
+    width:300px;
+    margin-top:0;
+    background-color:#DDDDDD;
+}
+.content_message .message_body{
+    top:35px;
+    bottom:100px;
+    width:300px;
+    overflow:auto;
+    background:#ffffff;
+}
+.content_message .message_bottom{
+
+}
